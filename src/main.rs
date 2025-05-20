@@ -1,5 +1,5 @@
 use phongpbr_lib::run;
 
 fn main() {
-    run();
+    pollster::block_on(run());
 }
